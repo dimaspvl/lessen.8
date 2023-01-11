@@ -70,6 +70,10 @@ nav a:hover {
   width: 55%;
 }
 
+.conteiner .text {
+  margin-top: 15%;
+}
+
 .text h1 {
   font-family: "PlayfairDisplay";
 }
@@ -137,8 +141,9 @@ nav a:hover {
   justify-content: space-between;
 }
 
-.block2, .block4 {
-  width: 65%;
+.block2,
+.block4 {
+  width: 75%;
   margin: 8% auto;
   display: flex;
   justify-content: space-between;
@@ -180,7 +185,7 @@ nav a:hover {
   width: 26%;
 }
 
-.block2 .descr{
+.block2 .descr {
   margin-left: 10%;
 }
 
@@ -202,7 +207,7 @@ nav a:hover {
   transition: 600ms;
 }
 
-.btn-block:hover{
+.btn-block:hover {
   color: #000000;
   border: 2px solid #000000;
   cursor: pointer;
@@ -311,7 +316,7 @@ nav a:hover {
   width: 42%;
 }
 
-.block4 .descr{
+.block4 .descr {
   margin-right: 10%;
 }
 
@@ -338,6 +343,12 @@ nav a:hover {
   font-size: 14px;
   line-height: 20px;
   color: #90a4b2;
+  transition: 600ms;
+}
+
+.footer .wrapper .left a:hover {
+  color: #000000;
+  transition: 600ms;
 }
 
 .footer .wrapper .left a:first-child {
