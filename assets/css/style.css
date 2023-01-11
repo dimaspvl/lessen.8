@@ -1,7 +1,7 @@
 @import url(fonts.css);
 
-::placeholder{
-    color:#B7C3CC
+::placeholder {
+  color: #b7c3cc;
 }
 
 body {
@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 .conteiner {
-  margin-top: 150px;
+  margin: 5% 0;
   width: 55%;
 }
 
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .text p {
-  margin-top: 50px;
+  margin-top: 7%;
   width: 55%;
   font-size: 25px;
   font-weight: 400;
@@ -89,8 +89,8 @@ nav a:hover {
 
 .header-button {
   display: flex;
-  margin-top: 70px;
-  margin-bottom: 120px;
+  margin-top: 7%;
+  margin-bottom: 12%;
 }
 
 .btn {
@@ -100,7 +100,7 @@ nav a:hover {
   cursor: pointer;
   font-size: 20px;
   padding: 25px 80px;
-  margin-right: 70px;
+  margin-right: 7%;
   transition: 600ms;
 }
 
@@ -137,9 +137,9 @@ nav a:hover {
   justify-content: space-between;
 }
 
-.block2 {
+.block2, .block4 {
   width: 80%;
-  margin: 160px auto;
+  margin: 8% auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 .top-text {
-  margin-bottom: 290px;
+  margin-bottom: 38%;
 }
 
 .top-text h2 {
@@ -225,7 +225,7 @@ nav a:hover {
 }
 
 .block3 .rightDiv {
-  margin-top: 133px;
+  margin-top: 8%;
   display: flex;
   justify-content: flex-start;
 }
@@ -237,7 +237,7 @@ nav a:hover {
 
 .block3 .form {
   width: 27%;
-  margin-bottom: 52px;
+  margin-bottom: 5%;
 }
 
 .block3 .text h1 {
@@ -260,92 +260,87 @@ nav a:hover {
   padding: 25px 0px 25px 20px;
   font-weight: 500;
   font-size: 20px;
-  width: 100%;
-  color: #B7C3CC;
+  width: 92%;
+  color: #b7c3cc;
 }
 
 .block3 .form .btn {
   margin-right: 0px;
   padding: 25px 45px;
+  width: 100%;
 }
 
 .block3 .form .form-input {
   margin-bottom: 20px;
 }
 
-.block3 .rightDiv .form p{
-    font-weight: 400;
-font-size: 11px;
-line-height: 18px;
-    color: black;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
+.block3 .rightDiv .form p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: black;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.block3 .rightDiv .form p a{
-color: #DD9428;
+.block3 .rightDiv .form p a {
+  color: #dd9428;
 }
 
-.block4 {
-    width: 80%;
-    margin: 160px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.block4 .slider {
+  width: 70%;
+  background: url(../img/img-block4.png) center no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 40px 60px 60px 60px;
+}
 
-  .block4 .slider {
-    width: 70%;
-    background: url(../img/img-block4.png) center no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    padding: 40px 60px 60px 60px;
-  }
+.block4 .slider .text .bottom-text h2 {
+  width: 42%;
+}
 
-  .block4 .slider .text .bottom-text h2{
-    width: 42%;
-  }
+.footer {
+  background-color: #f8f8f8;
+}
 
-  .footer{
-    background-color: #F8F8F8;
-  }
+.footer .wrapper {
+  padding: 73px 0px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .footer .wrapper{
-    padding: 73px 0px;
-    display: flex;
-    justify-content: space-between;
-  }
+.footer .wrapper .left {
+  display: flex;
+}
 
-  .footer .wrapper .left{
-    display: flex;
-  }
+.footer .wrapper .left a {
+  margin-left: 123px;
+  width: 15%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #90a4b2;
+}
 
-  .footer .wrapper .left a{
-    margin-left: 123px;
-    width: 15%;
-    font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-color: #90A4B2;
-  }
+.footer .wrapper .left a:first-child {
+  margin-left: 120px;
+}
 
-  .footer .wrapper .left a:first-child{
-    margin-left: 120px;
-  }
+.footer .wrapper .left a:last-child {
+  width: 20%;
+}
 
-  .footer .wrapper .left a:last-child{
-    width: 20%;
-  }
+.footer .wrapper .right {
+  margin-right: 120px;
+  display: flex;
+  align-items: center;
+}
 
-  .footer .wrapper .right{
-    margin-right: 120px;
-  }
+.footer .wrapper .right .icon a {
+  margin-right: 39px;
+}
 
-  .footer .wrapper .right .icon a{
-    margin-right: 39px;
-  }
-
-  .footer .wrapper .right .icon a:last-child{
-    margin-right: 0px;
-  }
+.footer .wrapper .right .icon a:last-child {
+  margin-right: 0px;
+}
