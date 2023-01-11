@@ -89,7 +89,7 @@ nav a:hover {
 
 .header-button {
   display: flex;
-  margin-top: 7%;
+  margin-top: 8%;
   margin-bottom: 12%;
 }
 
@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 .block2, .block4 {
-  width: 80%;
+  width: 65%;
   margin: 8% auto;
   display: flex;
   justify-content: space-between;
@@ -180,13 +180,16 @@ nav a:hover {
   width: 26%;
 }
 
+.block2 .descr{
+  margin-left: 10%;
+}
+
 .descr {
-  width: 50%;
-  margin-left: 100px;
+  width: 48%;
   color: black;
 }
 
-.btn-block-2 {
+.btn-block {
   font-size: 20px;
   font-weight: 600;
   background: none;
@@ -196,6 +199,14 @@ nav a:hover {
   border-radius: 38px;
   padding: 25px 66px;
   margin-top: 50px;
+  transition: 600ms;
+}
+
+.btn-block:hover{
+  color: #000000;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: 600ms;
 }
 
 .descr h3 {
@@ -300,14 +311,20 @@ nav a:hover {
   width: 42%;
 }
 
+.block4 .descr{
+  margin-right: 10%;
+}
+
 .footer {
   background-color: #f8f8f8;
+  width: 100%;
 }
 
 .footer .wrapper {
-  padding: 73px 0px;
+  padding: 3% 0;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer .wrapper .left {
